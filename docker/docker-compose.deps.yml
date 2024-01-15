@@ -1,0 +1,29 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: postgres:13
+    restart: always
+    volumes:
+      - postgres_data_rightorigins_v1:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    ports:
+      - '5432:5432'
+
+  redis:
+    image: redis:6.2-alpine
+    restart: always
+    ports:
+      - '6379:6379'
+    command: redis-server --save 20 1 --loglevel warning
+    volumes:
+      - redis_data_rightorigins_v1:/data
+
+volumes:
+  postgres_data_rightorigins_v1:
+  redis_data_rightorigins_v1:
+    driver: local

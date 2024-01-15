@@ -1,0 +1,2981 @@
+# This file was generated from locale/fr4.xlsx
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-23 07:28+0000\n"
+"PO-Revision-Date: 2022-09-01 03:14+0530\n"
+"Language: fr\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: xls-to-po 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: common/library.py:190
+#, fuzzy
+#| msgid "Not a valid phone number."
+msgid "Enter a valid phone number."
+msgstr "Ce n'est pas un numéro de téléphone valide."
+
+#: templates/add_connection.html:518 templates/default.html:518
+#: templates/member_invite.html:518 templates/reset_password.html:518
+msgid "Hey"
+msgstr "Bonjour"
+
+#: templates/add_connection.html:549 v1/supply_chains/notifications.py:18
+msgid "Show Connection"
+msgstr "Afficher la connexion"
+
+#: templates/add_connection.html:577 templates/default.html:577
+#: templates/member_invite.html:576 templates/reset_password.html:620
+msgid ""
+"This is a system generated email do not replay to the address. If you’re "
+"having trouble with the button above, copy and paste the URL below into your "
+"web browser."
+msgstr ""
+"Il s'agit d'un e-mail généré par le système, ne répondez pas à l'adresse. Si "
+"vous rencontrez des problèmes avec le bouton ci-dessus, copiez et collez "
+"l'URL ci-dessous dans votre navigateur Web."
+
+#: templates/add_connection.html:621 templates/default.html:621
+#: templates/member_invite.html:620 templates/reset_password.html:664
+msgid "Have questions? Visit our website or talk to us."
+msgstr "Vous avez des questions ? Visitez notre site web ou contactez-nous."
+
+#: templates/add_connection.html:637
+msgid "Mail us :"
+msgstr "Envoyez-nous un e-mail :"
+
+#: templates/add_connection.html:645 templates/default.html:645
+#: templates/member_invite.html:644 templates/reset_password.html:688
+msgid "Call us :"
+msgstr "Appelez-nous :"
+
+#: templates/default.html:637 templates/member_invite.html:636
+#: templates/reset_password.html:680
+msgid "Mail us:"
+msgstr "Envoyez-nous un e-mail :"
+
+#: templates/member_invite.html:548 v1/nodes/notifications.py:18
+msgid "Accept invitation"
+msgstr "Accepter l'invitation"
+
+#: templates/reset_password.html:10
+msgid "Set password for your Right Origins Account"
+msgstr "Définir le mot de passe de votre compte Right Origins"
+
+#: templates/reset_password.html:521
+msgid ""
+"You recently requested to reset your password for your Right Origins "
+"account. Use the button below to reset it within 48 hours."
+msgstr ""
+"Vous avez récemment demandé la réinitialisation de votre mot de passe pour "
+"votre compte Right Origins. Utilisez le bouton ci-dessous pour le "
+"réinitialiser dans les 48 heures."
+
+#: templates/reset_password.html:548
+msgid "Reset your password"
+msgstr "Réinitialiser votre mot de passe"
+
+#: templates/reset_password.html:557
+msgid "For security, this request was recieved from"
+msgstr "Par sécurité, cette demande a été reçue de"
+
+#: templates/reset_password.html:563
+msgid "Location"
+msgstr "Localisation"
+
+#: templates/reset_password.html:573
+msgid "Device"
+msgstr "Dispositif"
+
+#: templates/reset_password.html:583
+msgid "Time"
+msgstr "Temps"
+
+#: templates/reset_password.html:594
+msgid "If you did not request a password reset, you can safely ignore it."
+msgstr ""
+"Si vous n'avez pas demandé de réinitialisation du mot de passe, vous pouvez "
+"l'ignorer sans risque."
+
+#: utilities/functions.py:41
+#, fuzzy, python-brace-format
+#| msgid "Invalid input for Encoder. Should be of type int"
+msgid "Invalid input {value} for Encoder. Should be of type int"
+msgstr "Entrée invalide pour Encoder. Doit être de type int"
+
+#: utilities/functions.py:61
+#, fuzzy, python-brace-format
+#| msgid "Invalid input for Decoder."
+msgid "Invalid input({value}) for Decoder."
+msgstr "Entrée invalide pour le Decoder."
+
+#: utilities/functions.py:94
+msgid "and"
+msgstr "et"
+
+#: utilities/url_utils.py:32
+#, python-format
+msgid "Invalid host: %s"
+msgstr "Hôte non valide : %s"
+
+#: v1/accounts/admin.py:13
+#, python-format
+msgid "%s RightOrigins Admin"
+msgstr "%s RightOrigins Admin"
+
+#: v1/accounts/admin.py:14
+#, python-format
+msgid "RightOrigins: %s Admin Portal"
+msgstr "RightOrigins : %s Admin Portal"
+
+#: v1/accounts/admin.py:15
+#, python-format
+msgid "Welcome to RightOrigins %s Portal"
+msgstr "Bienvenue sur le portail RightOrigins %s"
+
+#: v1/accounts/admin.py:77
+msgid "Personal info"
+msgstr "Informations personnelles"
+
+#: v1/accounts/admin.py:81
+msgid "Internal values"
+msgstr "Valeurs internes"
+
+#: v1/accounts/admin.py:84
+msgid "Tenant details"
+msgstr "Détails du locataire"
+
+#: v1/accounts/admin.py:87
+msgid "Permissions"
+msgstr "Permissions"
+
+#: v1/accounts/admin.py:90
+msgid "Important dates"
+msgstr "Dates importantes"
+
+#: v1/accounts/constants.py:15
+msgid "English"
+msgstr "Anglais"
+
+#: v1/accounts/constants.py:16
+msgid "Dutch"
+msgstr "Néerlandais"
+
+#: v1/accounts/constants.py:17
+msgid "German"
+msgstr "Allemand"
+
+#: v1/accounts/constants.py:18
+msgid "French"
+msgstr ""
+
+#: v1/accounts/constants.py:22
+msgid "Tenant User"
+msgstr "Utilisateur locataire"
+
+#: v1/accounts/constants.py:23
+msgid "Node User"
+msgstr "Utilisateur du nœud"
+
+#: v1/accounts/constants.py:24
+msgid "ADMIN"
+msgstr "ADMIN"
+
+#: v1/accounts/constants.py:28
+msgid "User Created"
+msgstr "Utilisateur créé"
+
+#: v1/accounts/constants.py:29
+msgid "User Active"
+msgstr "Utilisateur actif"
+
+#: v1/accounts/constants.py:33
+msgid "Used"
+msgstr "Utilisé"
+
+#: v1/accounts/constants.py:34
+msgid "Unused"
+msgstr "Non utilisé"
+
+#: v1/accounts/constants.py:38
+msgid "Verify Email"
+msgstr "Vérifier l'e-mail"
+
+#: v1/accounts/constants.py:39
+msgid "Change Email"
+msgstr "Modifier l'e-mail"
+
+#: v1/accounts/constants.py:40
+msgid "Reset Password"
+msgstr "Réinitialiser le mot de passe"
+
+#: v1/accounts/constants.py:41
+msgid "OTP"
+msgstr "OTP"
+
+#: v1/accounts/constants.py:42
+msgid "Magic Login"
+msgstr "Connexion magique"
+
+#: v1/accounts/constants.py:43
+msgid "Invite"
+msgstr "Invitez"
+
+#: v1/accounts/constants.py:44
+msgid "Notification"
+msgstr "Notification"
+
+#: v1/accounts/constants.py:48
+msgid "Android"
+msgstr "Android"
+
+#: v1/accounts/constants.py:49
+msgid "Ios"
+msgstr "Ios"
+
+#: v1/accounts/constants.py:50
+msgid "Web"
+msgstr "Web"
+
+#: v1/accounts/models.py:52
+msgid "Date Of Birth"
+msgstr "Date de naissance"
+
+#: v1/accounts/models.py:55 v1/nodes/models.py:86
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+#: v1/accounts/models.py:58
+msgid "Address"
+msgstr "Adresse"
+
+#: v1/accounts/models.py:60 v1/tenants/models.py:352
+msgid "Selected Language"
+msgstr "Langue sélectionnée"
+
+#: v1/accounts/models.py:65 v1/claims/models.py:99 v1/nodes/models.py:91
+#: v1/products/models.py:87 v1/supply_chains/models.py:38
+#: v1/supply_chains/models.py:117
+msgid "Photo"
+msgstr "Photo"
+
+#: v1/accounts/models.py:68
+msgid "User Type"
+msgstr "Type d'utilisateur"
+
+#: v1/accounts/models.py:71
+msgid "User Status"
+msgstr "Statut de l'utilisateur"
+
+#: v1/accounts/models.py:73
+msgid "Block User"
+msgstr "Bloquer l'utilisateur"
+
+#: v1/accounts/models.py:76
+msgid "Last Updated Email"
+msgstr "Dernière mise à jour Email"
+
+#: v1/accounts/models.py:79
+msgid "Default Node Of User"
+msgstr "Nœud par défaut de l'utilisateur"
+
+#: v1/accounts/models.py:83 v1/bulk_templates/models.py:59
+#: v1/bulk_templates/models.py:697 v1/claims/models.py:59
+#: v1/dashboard/models.py:30 v1/dashboard/models.py:144 v1/nodes/models.py:48
+#: v1/nodes/models.py:267 v1/products/models.py:76 v1/products/models.py:135
+#: v1/supply_chains/models.py:30 v1/supply_chains/models.py:78
+#: v1/supply_chains/models.py:112 v1/supply_chains/models.py:151
+#: v1/tenants/models.py:270 v1/tenants/models.py:456
+#: v1/transactions/models.py:64
+msgid "Tenant"
+msgstr "Locataire"
+
+#: v1/accounts/models.py:86
+msgid "Latest Accepted Privacy Policy"
+msgstr "Dernière politique de confidentialité acceptée"
+
+#: v1/accounts/models.py:89
+msgid "Force Logout User"
+msgstr "Forcer la déconnexion de l'utilisateur"
+
+#: v1/accounts/models.py:234 v1/nodes/models.py:325
+msgid "Config not defined."
+msgstr "Configuration non définie"
+
+#: v1/accounts/models.py:277 v1/accounts/models.py:421
+msgid "Token User"
+msgstr "Utilisateur du jeton"
+
+#: v1/accounts/models.py:284 v1/accounts/models.py:424
+msgid "Token"
+msgstr "Jeton"
+
+#: v1/accounts/models.py:288
+msgid "Token Status"
+msgstr "Statut du jeton"
+
+#: v1/accounts/models.py:290
+msgid "Token Expiry Date"
+msgstr "Date d'expiration du jeton"
+
+#: v1/accounts/models.py:294
+msgid "Token Type"
+msgstr "Type de jeton"
+
+#: v1/accounts/models.py:426
+msgid "Created Date"
+msgstr "Date de création"
+
+#: v1/accounts/models.py:429
+msgid "Created Device"
+msgstr "Dispositif créé"
+
+#: v1/accounts/models.py:476
+msgid "Device User"
+msgstr "Utilisateur du dispositif"
+
+#: v1/accounts/models.py:481
+msgid "Device Type"
+msgstr "Type de dispositif"
+
+#: v1/accounts/models.py:483
+msgid "Registration token"
+msgstr "Jeton d'enregistrement"
+
+#: v1/accounts/models.py:488
+msgid "User device"
+msgstr "Dispositif utilisateur"
+
+#: v1/accounts/models.py:489
+msgid "User devices"
+msgstr "Dispositifs des utilisateurs"
+
+#: v1/accounts/models.py:548
+msgid "Policy Content"
+msgstr "Contenu de la politique"
+
+#: v1/accounts/models.py:550 v1/claims/models.py:114
+msgid "Version"
+msgstr "Version"
+
+#: v1/accounts/models.py:553
+msgid "Privacy Policy Date"
+msgstr "Date de la politique de confidentialité"
+
+#: v1/accounts/models.py:556
+msgid "Start Date"
+msgstr "Date de début"
+
+#: v1/accounts/models.py:561
+msgid "Privacy Policies"
+msgstr "Politiques de confidentialité"
+
+#: v1/apiauth/notifications.py:16
+msgid "Change Password"
+msgstr "Changer le mot de passe"
+
+#: v1/apiauth/notifications.py:35 v1/apiauth/notifications.py:38
+#, python-brace-format
+msgid "Received password reset request for your {tenant} Traceability Account"
+msgstr ""
+"Demande de réinitialisation du mot de passe reçue pour votre compte de "
+"traçabilité {tenant}"
+
+#: v1/apiauth/serializers.py:54
+msgid "User does not have access to Tenant"
+msgstr "L'utilisateur n'a pas accès au locataire"
+
+#: v1/apiauth/serializers.py:57
+msgid "User does not have access any Nodes"
+msgstr "L'utilisateur n'a pas accès aux nœuds"
+
+#: v1/apiauth/serializers.py:63 v1/apiauth/serializers.py:114
+msgid "Invalid Node or User does not have access."
+msgstr "Nœud invalide ou l'utilisateur n'a pas accès."
+
+#: v1/apiauth/serializers.py:96
+msgid "No active account found with the given credentials"
+msgstr ""
+"Aucun compte actif n'a été trouvé avec les informations d'identification "
+"données."
+
+#: v1/apiauth/serializers.py:105
+msgid "Invalid tenant or User does not have access."
+msgstr "Locataire invalide ou l'utilisateur n'a pas d'accès."
+
+#: v1/apiauth/serializers.py:148
+msgid "Email is not registered with any user"
+msgstr "L'e-mail n'est enregistré avec aucun utilisateur"
+
+#: v1/apiauth/serializers.py:179 v1/apiauth/serializers.py:183
+#: v1/apiauth/serializers.py:229
+msgid "Invalid validation token"
+msgstr "Jeton de validation invalide"
+
+#: v1/apiauth/serializers.py:195
+msgid "Email already taken."
+msgstr "Email déjà pris."
+
+#: v1/apiauth/serializers.py:218
+msgid "Member is removed or not available, please contact admin."
+msgstr ""
+"Le membre est supprimé ou indisponible, veuillez contacter l'administrateur."
+
+#: v1/apiauth/serializers.py:222
+msgid "User ID is required to validate Validation Token"
+msgstr "L'ID utilisateur est nécessaire pour valider le jeton de validation"
+
+#: v1/apiauth/serializers.py:253
+msgid "Token does not exist."
+msgstr "Le jeton n'existe pas."
+
+#: v1/apiauth/serializers.py:257
+msgid "User does not exist"
+msgstr "L'utilisateur n'existe pas"
+
+#: v1/apiauth/serializers.py:261
+msgid "Password already set. User reset password to change password."
+msgstr ""
+"Le mot de passe est déjà défini. L'utilisateur doit réinitialiser le mot de "
+"passe pour le changer."
+
+#: v1/apiauth/serializers.py:264
+msgid "Password is incorrect."
+msgstr "Le mot de passe est incorrect."
+
+#: v1/apiauth/serializers.py:266
+#, fuzzy
+#| msgid "Your passwords didnt match."
+msgid "Your passwords didn't match."
+msgstr "Vos mots de passe ne correspondent pas."
+
+#: v1/apiauth/serializers.py:293
+#, fuzzy
+#| msgid "Password is incorrect."
+msgid "Password is incorrect"
+msgstr "Le mot de passe est incorrect."
+
+#: v1/bulk_templates/constants.py:14 v1/claims/models.py:420
+#: v1/transactions/models.py:267 v1/transactions/models.py:765
+msgid "Transaction"
+msgstr "Transaction"
+
+#: v1/bulk_templates/constants.py:15
+msgid "Connection"
+msgstr "Connexion"
+
+#: v1/bulk_templates/constants.py:19
+msgid "Primary Key"
+msgstr "Clé primaire"
+
+#: v1/bulk_templates/constants.py:20
+msgid "String"
+msgstr "Chaîne de caractères"
+
+#: v1/bulk_templates/constants.py:21
+msgid "Integer"
+msgstr "Entier"
+
+#: v1/bulk_templates/constants.py:22
+msgid "Positive Integer"
+msgstr "Nombre entier positif"
+
+#: v1/bulk_templates/constants.py:23
+msgid "Float"
+msgstr "Flotteur"
+
+#: v1/bulk_templates/constants.py:24
+msgid "Positive Float"
+msgstr "Flotteur positif"
+
+#: v1/bulk_templates/constants.py:25 v1/dynamic_forms/constants.py:24
+msgid "Date"
+msgstr "Date"
+
+#: v1/bulk_templates/constants.py:26
+msgid "Phone"
+msgstr "Téléphone"
+
+#: v1/bulk_templates/constants.py:27 v1/dynamic_forms/constants.py:20
+msgid "Email"
+msgstr "Courriel :"
+
+#: v1/bulk_templates/constants.py:28
+msgid "Boolean"
+msgstr "Booléen"
+
+#: v1/bulk_templates/constants.py:32 v1/tenants/models.py:357
+msgid "Countries"
+msgstr "Pays"
+
+#: v1/bulk_templates/constants.py:33
+msgid "Provinces"
+msgstr "Provinces"
+
+#: v1/bulk_templates/constants.py:34
+msgid "Producers"
+msgstr "Producteurs"
+
+#: v1/bulk_templates/constants.py:35
+msgid "Products"
+msgstr "Produits"
+
+#: v1/bulk_templates/constants.py:36
+msgid "Operations"
+msgstr "Opérations"
+
+#: v1/bulk_templates/constants.py:37 v1/tenants/models.py:73
+#: v1/tenants/models.py:307
+msgid "Currencies"
+msgstr "Devises"
+
+#: v1/bulk_templates/constants.py:38 v1/tenants/models.py:76
+msgid "Units"
+msgstr "Unités"
+
+#: v1/bulk_templates/constants.py:42
+msgid "Created"
+msgstr "Créé"
+
+#: v1/bulk_templates/constants.py:43
+msgid "Validated"
+msgstr "Validé"
+
+#: v1/bulk_templates/constants.py:44
+msgid "Initiated"
+msgstr "Initiée"
+
+#: v1/bulk_templates/constants.py:45
+msgid "In Progress"
+msgstr "En cours"
+
+#: v1/bulk_templates/constants.py:46
+msgid "Completed"
+msgstr "Complété"
+
+#: v1/bulk_templates/constants.py:47
+msgid "Failed"
+msgstr "Échoué"
+
+#: v1/bulk_templates/models.py:63
+msgid "Template Name"
+msgstr "Nom du modèle"
+
+#: v1/bulk_templates/models.py:66
+msgid "Template File Name"
+msgstr "Nom du fichier du modèle"
+
+#: v1/bulk_templates/models.py:69
+msgid "Excel Description"
+msgstr "Description d'Excel"
+
+#: v1/bulk_templates/models.py:71
+msgid "Sheet Name"
+msgstr "Nom de la feuille"
+
+#: v1/bulk_templates/models.py:74
+msgid "Title Row Starting"
+msgstr "Rangée de titre de départ"
+
+#: v1/bulk_templates/models.py:77
+msgid "Data Row Starting"
+msgstr "Rangée de données de départ"
+
+#: v1/bulk_templates/models.py:81 v1/bulk_templates/models.py:631
+#: v1/bulk_templates/models.py:710
+msgid "Template"
+msgstr "Modèle"
+
+#: v1/bulk_templates/models.py:85 v1/bulk_templates/models.py:494
+msgid "Template Type"
+msgstr "Type de modèle"
+
+#: v1/bulk_templates/models.py:87
+msgid "Is Default Template"
+msgstr "Est le modèle par défaut"
+
+#: v1/bulk_templates/models.py:89
+msgid "Is Template Deleted"
+msgstr "est un modèle supprimé"
+
+#: v1/bulk_templates/models.py:486 v1/dynamic_forms/models.py:114
+msgid "Is Field Required"
+msgstr "est un champ obligatoire"
+
+#: v1/bulk_templates/models.py:487
+msgid "Name Of Field"
+msgstr "Nom du champ"
+
+#: v1/bulk_templates/models.py:490
+msgid "Description About Field"
+msgstr "Description À propos du champ"
+
+#: v1/bulk_templates/models.py:498 v1/dynamic_forms/models.py:101
+msgid "Field Type"
+msgstr "Type de champ"
+
+#: v1/bulk_templates/models.py:501 v1/bulk_templates/models.py:642
+msgid "Width of cell"
+msgstr "Largeur de la cellule"
+
+#: v1/bulk_templates/models.py:503
+msgid "Field Key Name"
+msgstr "Nom de la clé du champ"
+
+#: v1/bulk_templates/models.py:507
+msgid "Data Generator"
+msgstr "Générateur de données"
+
+#: v1/bulk_templates/models.py:636 v1/dynamic_forms/models.py:201
+msgid "Field"
+msgstr "Champ"
+
+#: v1/bulk_templates/models.py:639
+msgid "Column Position"
+msgstr "Position de la colonne"
+
+#: v1/bulk_templates/models.py:643
+msgid "Can Read"
+msgstr ""
+
+#: v1/bulk_templates/models.py:644
+msgid "Can Write"
+msgstr ""
+
+#: v1/bulk_templates/models.py:700 v1/claims/constants.py:45
+#: v1/dashboard/models.py:151 v1/nodes/models.py:273 v1/nodes/models.py:362
+#: v1/products/models.py:140 v1/risk/models.py:23
+#: v1/supply_chains/models.py:222 v1/transactions/models.py:328
+msgid "Node"
+msgstr "Nœud"
+
+#: v1/bulk_templates/models.py:705 v1/supply_chains/models.py:218
+msgid "Supply Chain"
+msgstr "Chaîne d'approvisionnement"
+
+#: v1/bulk_templates/models.py:713
+msgid "Excel File"
+msgstr "Fichier Excel"
+
+#: v1/bulk_templates/models.py:715 v1/nodes/models.py:365
+msgid "File Name"
+msgstr "Nom du fichier"
+
+#: v1/bulk_templates/models.py:717
+msgid "Validated Data"
+msgstr "Données validées"
+
+#: v1/bulk_templates/models.py:719
+msgid "Data"
+msgstr "Données"
+
+#: v1/bulk_templates/models.py:721
+msgid "Error Data"
+msgstr "Données d'erreur"
+
+#: v1/bulk_templates/models.py:725
+msgid "Status"
+msgstr "Statut"
+
+#: v1/bulk_templates/models.py:727
+msgid "New Items"
+msgstr "Nouveaux éléments"
+
+#: v1/bulk_templates/models.py:729
+msgid "New Items Completed"
+msgstr "Nouveaux éléments achevés"
+
+#: v1/bulk_templates/models.py:731
+msgid "New Items Failed"
+msgstr "Nouveaux éléments échoués"
+
+#: v1/bulk_templates/models.py:733
+msgid "Total Updations"
+msgstr "Total des mises à jour"
+
+#: v1/bulk_templates/models.py:735
+msgid "Updations Completed"
+msgstr "Mises à jour terminées"
+
+#: v1/bulk_templates/models.py:737
+msgid "Updations Failed"
+msgstr "Échec des mises à jour"
+
+#: v1/bulk_templates/models.py:739
+msgid "Is file data valid"
+msgstr "est une donnée du fichier valide"
+
+#: v1/bulk_templates/models.py:741
+msgid "Is Data Import Completed"
+msgstr "est une importation des données terminée"
+
+#: v1/bulk_templates/models.py:757
+msgid "Excel is empty."
+msgstr "Excel est vide."
+
+#: v1/bulk_templates/models.py:776
+msgid "Template still has validation errors."
+msgstr "Le modèle présente toujours des erreurs de validation."
+
+#: v1/bulk_templates/models.py:781
+msgid "Bulk upload is already in progress"
+msgstr "Le téléchargement en masse est déjà en cours"
+
+#: v1/bulk_templates/notifications.py:21
+msgid "Show BulkUpload"
+msgstr "Afficher Le téléchargement en masse"
+
+#: v1/bulk_templates/notifications.py:56 v1/bulk_templates/notifications.py:68
+#, python-brace-format
+msgid "Bulk upload of {bu_name}s from file {file_name} is completed."
+msgstr ""
+"Le téléchargement groupé de {bu_name} à partir du fichier {file_name} est "
+"terminé."
+
+#: v1/bulk_templates/notifications.py:61 v1/bulk_templates/notifications.py:73
+#, python-brace-format
+msgid "Bulk upload of {bu_name}s from file {file_name} is failed."
+msgstr ""
+"Le téléchargement groupé de {bu_name} à partir du fichier {file_name} a "
+"échoué."
+
+#: v1/bulk_templates/serializers.py:67 v1/bulk_templates/views.py:156
+msgid "Unrecognized file."
+msgstr "Fichier non reconnu."
+
+#: v1/bulk_templates/serializers.py:71
+msgid "Invalid Excel. Please upload the originally downloaded file."
+msgstr ""
+"Excel non valide. Veuillez télécharger le fichier téléchargé à l'origine."
+
+#: v1/bulk_templates/serializers.py:75
+msgid "Invalid Excel. Tenant Mismatch."
+msgstr "Excel non valide. Inadéquation entre les locataires."
+
+#: v1/bulk_templates/serializers.py:77
+msgid "Invalid Excel. Node Mismatch."
+msgstr "Excel non valide. Inadéquation du nœud."
+
+#: v1/bulk_templates/serializers.py:79
+msgid "Invalid Excel. SupplyChain Mismatch."
+msgstr "Excel non valide. Inadéquation de la chaîne d'approvisionnement."
+
+#: v1/bulk_templates/serializers.py:81
+msgid "Invalid Excel. Please check the file you uploaded."
+msgstr ""
+"Excel non valide. Veuillez vérifier le fichier que vous avez téléchargé."
+
+#: v1/bulk_templates/serializers.py:96
+msgid "Bulk Upload already started. Cannot update"
+msgstr ""
+"Le téléchargement en masse a déjà commencé. Impossible de mettre à jour"
+
+#: v1/bulk_templates/template_config.py:69
+msgid "Province not part of selected country."
+msgstr "La province ne fait pas partie du pays sélectionné."
+
+#: v1/bulk_templates/template_config.py:74
+#: v1/bulk_templates/template_config.py:121
+msgid "Possible double entry in Excel. "
+msgstr "Possibilité de double saisie dans Excel. "
+
+#: v1/bulk_templates/template_config.py:135
+msgid "Similar transaction already exists. Possible duplicate. "
+msgstr "Une transaction similaire existe déjà. Duplicata possible. "
+
+#: v1/bulk_templates/template_config.py:141
+msgid "Something went wrong. Please contact the admin. "
+msgstr "Un problème est survenu. Veuillez contacter l'administrateur. "
+
+#: v1/bulk_templates/validators.py:20
+msgid "Cannot be empty."
+msgstr "Ne peut être vide."
+
+#: v1/bulk_templates/validators.py:37
+msgid "Invalid ID."
+msgstr "ID invalide."
+
+#: v1/bulk_templates/validators.py:51
+msgid "Not a valid string of characters."
+msgstr "Ce n'est pas une chaîne de caractères valide."
+
+#: v1/bulk_templates/validators.py:65 v1/bulk_templates/validators.py:80
+msgid "Not a valid Integer."
+msgstr "Ce n'est pas un nombre entier valide."
+
+#: v1/bulk_templates/validators.py:77 v1/bulk_templates/validators.py:106
+msgid "Should be a positve value."
+msgstr "Il devrait s'agir d'une valeur positive."
+
+#: v1/bulk_templates/validators.py:94 v1/bulk_templates/validators.py:109
+msgid "Not a valid floating point number."
+msgstr "Ce n'est pas un nombre à virgule flottante valide."
+
+#: v1/bulk_templates/validators.py:127
+msgid "Not a valid date string. Should DD-MM-YYYY'."
+msgstr ""
+"Ce n'est pas une chaîne de date valide. Il faut utiliser le format DD-MM-"
+"YYYY."
+
+#: v1/bulk_templates/validators.py:142
+msgid "Not a valid phone number."
+msgstr "Ce n'est pas un numéro de téléphone valide."
+
+#: v1/bulk_templates/validators.py:157
+msgid "Not a valid email address."
+msgstr "L'adresse électronique n'est pas valide."
+
+#: v1/bulk_templates/validators.py:178 v1/bulk_templates/validators.py:180
+msgid "Unrecognized Yes/No Value."
+msgstr "Valeur oui/non non reconnue."
+
+#: v1/bulk_templates/views.py:110
+msgid "Invalid Bulk Upload. Check the ID."
+msgstr "Téléchargement en masse invalide. Vérifiez l'ID."
+
+#: v1/bulk_templates/views.py:112
+msgid "Bulk upload started successfully."
+msgstr "Le téléchargement en masse a commencé avec succès."
+
+#: v1/claims/constants.py:8
+msgid "Product Claim"
+msgstr "Revendication du produit"
+
+#: v1/claims/constants.py:9
+msgid "Company Claim"
+msgstr "Revendication de la société"
+
+#: v1/claims/constants.py:13
+msgid "Never Inherit"
+msgstr "Ne jamais hériter"
+
+#: v1/claims/constants.py:14
+msgid "Always Inherit"
+msgstr "Toujours hériter"
+
+#: v1/claims/constants.py:15
+msgid "Product Inheritance"
+msgstr "Héritage du produit"
+
+#: v1/claims/constants.py:19
+msgid "None"
+msgstr "Aucun"
+
+#: v1/claims/constants.py:20 v1/claims/constants.py:26
+#: v1/supply_chains/constants.py:14 v1/transactions/constants.py:28
+msgid "System"
+msgstr "Système"
+
+#: v1/claims/constants.py:21 v1/claims/constants.py:27
+msgid "Second Party"
+msgstr "Deuxième partie"
+
+#: v1/claims/constants.py:22
+msgid "Third Party"
+msgstr "Troisième partie"
+
+#: v1/claims/constants.py:31 v1/supply_chains/constants.py:7
+#: v1/transactions/constants.py:39
+msgid "Pending"
+msgstr "En attente"
+
+#: v1/claims/constants.py:32 v1/supply_chains/constants.py:8
+#: v1/transactions/constants.py:40
+msgid "Approved"
+msgstr "Approuvé"
+
+#: v1/claims/constants.py:33 v1/transactions/constants.py:41
+msgid "Rejected"
+msgstr "Rejeté"
+
+#: v1/claims/constants.py:34 v1/transactions/constants.py:44
+msgid "Partial"
+msgstr "Partiel"
+
+#: v1/claims/constants.py:35
+msgid "On Hold"
+msgstr "En attente"
+
+#: v1/claims/constants.py:39 v1/supply_chains/constants.py:13
+#: v1/transactions/constants.py:27
+msgid "Manual"
+msgstr "Manuel"
+
+#: v1/claims/constants.py:40
+msgid "Inheritance"
+msgstr "Héritage"
+
+#: v1/claims/constants.py:44 v1/products/models.py:150
+#: v1/transactions/models.py:275
+msgid "Batch"
+msgstr "Lot"
+
+#: v1/claims/models.py:62
+msgid "Supply Chains"
+msgstr "Chaînes d'approvisionnement"
+
+#: v1/claims/models.py:65
+msgid "Verifiers"
+msgstr "Vérificateurs"
+
+#: v1/claims/models.py:66 v1/claims/models.py:147 v1/claims/models.py:594
+msgid "Claim"
+msgstr "Revendication"
+
+#: v1/claims/models.py:68
+msgid "Claim Code"
+msgstr "Code de revendication"
+
+#: v1/claims/models.py:72 v1/claims/models.py:152 v1/nodes/models.py:88
+#: v1/products/models.py:90 v1/supply_chains/models.py:120
+msgid "Description"
+msgstr "Description"
+
+#: v1/claims/models.py:75
+msgid "Can claim be attached to nodes? (Formerly company claims)"
+msgstr ""
+"Une revendication peut-elle être attachée aux nœuds ? (Anciennement, les "
+"revendications des sociétés)"
+
+#: v1/claims/models.py:78
+msgid ""
+"Can claim be attached directly from profile.(Relevant for company claims)."
+msgstr ""
+"La revendication peut être jointe pendant la transaction (pour les "
+"revendications concernant les produits)."
+
+#: v1/claims/models.py:81
+msgid ""
+"Can claim be attached while adding connection(Relevant for company claims)."
+msgstr ""
+"La revendication peut être jointe pendant la transaction (pour les "
+"revendications concernant les produits)."
+
+#: v1/claims/models.py:85
+msgid "Can claim be attached to batches? (Formerly product claims)"
+msgstr ""
+"La revendication peut-elle être rattachée aux sociétés ? (Anciennement, "
+"revendications sur les produits)"
+
+#: v1/claims/models.py:88
+msgid ""
+"Can claim be attached directly from batch details.(Relevant for product "
+"claims)."
+msgstr ""
+"La revendication peut être jointe pendant la transaction (pour les "
+"revendications concernant les produits)."
+
+#: v1/claims/models.py:91
+msgid "Can claim be attached during transaction.(Relevant for product claims)."
+msgstr ""
+"La revendication peut être jointe pendant la transaction (pour les "
+"revendications concernant les produits)."
+
+#: v1/claims/models.py:96
+msgid "Claim Type"
+msgstr "Type de revendication"
+
+#: v1/claims/models.py:101
+msgid "Is Claim Proportional"
+msgstr "est une revendication proportionnelle"
+
+#: v1/claims/models.py:103
+msgid "Is Claim Removable"
+msgstr "est une revendication amovible "
+
+#: v1/claims/models.py:107
+msgid "Claim Inheritance Type"
+msgstr "Type d'héritage de la revendication"
+
+#: v1/claims/models.py:111 v1/claims/models.py:158
+msgid "Verification Type"
+msgstr "Type de vérification"
+
+#: v1/claims/models.py:113 v1/claims/models.py:160
+msgid "Reference Number"
+msgstr "Numéro de référence"
+
+#: v1/claims/models.py:115
+msgid "Is Active"
+msgstr "Est actif"
+
+#: v1/claims/models.py:150
+msgid "Claim Criterion"
+msgstr "Critère de revendication"
+
+#: v1/claims/models.py:154
+msgid "Is Criterion Mandatory"
+msgstr "est un critère obligatoire"
+
+#: v1/claims/models.py:162
+msgid "Version Of Criterion"
+msgstr "Version du critère"
+
+#: v1/claims/models.py:165
+msgid "Fields"
+msgstr "Champs"
+
+#: v1/claims/models.py:169
+msgid "Criteria"
+msgstr "Critères"
+
+#: v1/claims/models.py:196
+msgid "Attached Claim"
+msgstr "Revendication jointe"
+
+#: v1/claims/models.py:201
+msgid "Claim Attached to"
+msgstr "Revendication jointe à"
+
+#: v1/claims/models.py:205
+msgid "Claim Verifier"
+msgstr "Vérificateur de Revendication"
+
+#: v1/claims/models.py:209
+msgid "Claim Attached By"
+msgstr "Revendication jointe par"
+
+#: v1/claims/models.py:213
+msgid "Claim Current Status"
+msgstr "Statut actuel de la Revendication"
+
+#: v1/claims/models.py:215
+msgid "Notes"
+msgstr "Notes"
+
+#: v1/claims/models.py:219 v1/claims/models.py:509
+msgid "Attached Via"
+msgstr "Attaché via"
+
+#: v1/claims/models.py:417
+msgid "Claim Attached Batch"
+msgstr "Lot de revendication joint"
+
+#: v1/claims/models.py:464 v1/nodes/constants.py:8
+msgid "Company"
+msgstr "Société"
+
+#: v1/claims/models.py:496
+msgid "Criterion"
+msgstr "Critère"
+
+#: v1/claims/models.py:501
+msgid "Current Status"
+msgstr "Situation actuelle"
+
+#: v1/claims/models.py:504 v1/nodes/models.py:52 v1/nodes/models.py:56
+#: v1/nodes/models.py:60 v1/nodes/models.py:276 v1/supply_chains/models.py:172
+#: v1/transactions/models.py:99 v1/transactions/models.py:646
+msgid "Extra Form Data"
+msgstr "Données du formulaire supplémentaire"
+
+#: v1/claims/models.py:513
+msgid "Attached criteria"
+msgstr "Critères ci-joints"
+
+#: v1/claims/models.py:547
+msgid "Criterion Attached Batch Claim"
+msgstr "Critère joint à la revendication du lot"
+
+#: v1/claims/models.py:551
+msgid "Attached batch criteria"
+msgstr "Critères de lot ci-joints"
+
+#: v1/claims/models.py:577
+msgid "Criterion Attached Company Claim"
+msgstr "Critère joint à la revendication de la société"
+
+#: v1/claims/models.py:597 v1/transactions/models.py:649
+#: v1/transactions/models.py:768 v1/transactions/models.py:851
+msgid "Comment"
+msgstr "Commentaire"
+
+#: v1/claims/models.py:600 v1/transactions/models.py:771
+msgid "Document Name"
+msgstr "Nom du document"
+
+#: v1/claims/models.py:604 v1/nodes/models.py:371 v1/transactions/models.py:775
+msgid "Document"
+msgstr "Document"
+
+#: v1/claims/models.py:607 v1/transactions/models.py:778
+msgid "Commenter"
+msgstr "Commenter"
+
+#: v1/claims/notifications.py:21
+msgid "Show Batch"
+msgstr "Afficher le lot"
+
+#: v1/claims/notifications.py:56
+#, python-brace-format
+msgid "{claim_name} claim added to the company {node_name}."
+msgstr "Revendication {claim_name} ajoutée à la société {node_name}."
+
+#: v1/claims/notifications.py:60
+#, python-brace-format
+msgid "{claim_name} claim added to the batch {batch_name} of {node_name}."
+msgstr "Revendication {claim_name} ajoutée au lot {batch_name} de {node_name}."
+
+#: v1/claims/notifications.py:65
+#, python-brace-format
+msgid "{claim_name} claim added."
+msgstr "Revendication {claim_name} ajoutée."
+
+#: v1/claims/notifications.py:70
+#, python-brace-format
+msgid ""
+"{attached_by} attached claim named {claim_name} to the batch {batch_name} of "
+"{node_name} under {sc_name} supply chain."
+msgstr ""
+"{attached_by} a joint la réclamation nommée {claim_name} au lot {batch_name} "
+"de {node_name} sous la chaîne d'approvisionnement {sc_name}."
+
+#: v1/claims/notifications.py:78 v1/claims/notifications.py:153
+msgid "Show Company"
+msgstr "Afficher la société"
+
+#: v1/claims/notifications.py:80
+#, python-brace-format
+msgid ""
+"{attached_by} attached claim named {claim_name} to the company {node_name}"
+msgstr ""
+"{attached_by} a joint la revendication nommée {claim_name} à la société "
+"{node_name}"
+
+#: v1/claims/notifications.py:109
+msgid "View Batch"
+msgstr "Voir le lot"
+
+#: v1/claims/notifications.py:145
+#, fuzzy, python-brace-format
+#| msgid "{claim_name} Claim of the batch {batch_name} is approved"
+msgid "{claim_name} of the {batch_name} is approved"
+msgstr "{claim_name} La demande du lot {batch_name} est approuvée"
+
+#: v1/claims/notifications.py:149
+#, fuzzy, python-brace-format
+#| msgid "{claim_name} Claim of the batch {batch_name} is rejected"
+msgid "{claim_name} of the {batch_name} is rejected"
+msgstr "{claim_name} La demande du lot {batch_name} est rejetée"
+
+#: v1/claims/notifications.py:155
+#, fuzzy, python-brace-format
+#| msgid "{claim_name} claim added."
+msgid "{claim_name} is approved"
+msgstr "Revendication {claim_name} ajoutée."
+
+#: v1/claims/notifications.py:157
+#, fuzzy, python-brace-format
+#| msgid "{claim_name} Claim of the company is rejected"
+msgid "{claim_name} is rejected"
+msgstr "{claim_name} La réclamation de l'entreprise est rejetée"
+
+#: v1/claims/notifications.py:162
+#, python-brace-format
+msgid "{claim_name} Claim of the batch {batch_name} is approved by {name}"
+msgstr ""
+"{claim_name} La réclamation du lot {batch_name} est approuvée par {name}"
+
+#: v1/claims/notifications.py:167
+#, python-brace-format
+msgid "{claim_name} Claim of the batch {batch_name} is rejected by {name}"
+msgstr "{claim_name} La demande du lot {batch_name} est rejetée par {name}"
+
+#: v1/claims/notifications.py:173
+#, python-brace-format
+msgid "{claim_name} Claim of the company {node_name} is approved by {name}"
+msgstr ""
+"{claim_name} La réclamation de la société {node_name} est approuvée par "
+"{name}"
+
+#: v1/claims/notifications.py:178
+#, python-brace-format
+msgid "{claim_name} Claim of the company {node_name} is rejected by {name}"
+msgstr ""
+"{claim_name} La réclamation de la société {node_name} est rejetée par {name}"
+
+#: v1/claims/notifications.py:245
+#, python-brace-format
+msgid "New comment added under the attached claim {claim_name}"
+msgstr ""
+"Nouveau commentaire ajouté sous la revendication ci-jointe {claim_name}"
+
+#: v1/claims/notifications.py:248
+#, python-brace-format
+msgid "New comment added under the attached claim {claim_name} by {name}"
+msgstr ""
+"Nouveau commentaire ajouté sous la revendication jointe {claim_name} par "
+"{name}"
+
+#: v1/claims/serializers/batch_claim.py:70
+msgid "Claim is not attachable to Batch or Transaction."
+msgstr "La Revendication n'est pas rattachable au lot ou à la transaction."
+
+#: v1/claims/serializers/batch_claim.py:76
+msgid "This claim cannot be attached while transacting."
+msgstr "Cette Revendication ne peut être jointe lors d'une transaction."
+
+#: v1/claims/serializers/batch_claim.py:80
+msgid "This claim cannot be attached directly to batch."
+msgstr "Cette Revendication ne peut être rattachée directement au lot."
+
+#: v1/claims/serializers/batch_claim.py:119
+msgid "Batch criterion creation failed."
+msgstr "La création du critère de lot a échoué."
+
+#: v1/claims/serializers/batch_claim.py:157
+#: v1/claims/serializers/batch_claim.py:164
+msgid "Claim adding to batch is failed."
+msgstr "L'ajout de la revendication au lot a échoué."
+
+#: v1/claims/serializers/batch_claim.py:173
+msgid "Claims added successfully"
+msgstr "Revendications ajoutées avec succès"
+
+#: v1/claims/serializers/claim.py:62
+msgid "not valid"
+msgstr "non valide"
+
+#: v1/claims/serializers/claim.py:249 v1/products/serializers/batch.py:72
+#, fuzzy, python-brace-format
+#| msgid "Batch quantity mismatch for %s"
+msgid "Batch quantity mismatch for {batch_id}"
+msgstr "La quantité de lot ne correspond pas à {batch_id}"
+
+#: v1/claims/serializers/claim.py:369
+msgid "Attached claim does not exist"
+msgstr "La réclamation jointe n'existe pas"
+
+#: v1/claims/serializers/claim.py:373
+msgid "User is not allowed to comment"
+msgstr "L'utilisateur n'est pas autorisé à commenter"
+
+#: v1/claims/serializers/claim.py:386
+#: v1/transactions/serializers/transaction.py:70
+msgid "User is not allowed to edit comment."
+msgstr "L'utilisateur n'est pas autorisé à modifier le commentaire."
+
+#: v1/claims/serializers/node_claims.py:68
+msgid "Claim is not attachable to Company."
+msgstr "La revendication n'est pas saisissable par la société."
+
+#: v1/claims/serializers/node_claims.py:98
+msgid "Company criterion creation failed."
+msgstr "La création d'un critère de société a échoué."
+
+#: v1/claims/serializers/verification.py:115
+msgid "Can not change status"
+msgstr "Ne peut pas changer de statut"
+
+#: v1/claims/serializers/verification.py:120
+msgid "Member does not exist."
+msgstr "Le membre n'existe pas."
+
+#: v1/claims/serializers/verification.py:127
+msgid "User can not change status"
+msgstr "L'utilisateur ne peut pas changer de statut"
+
+#: v1/claims/views/claim.py:138 v1/transactions/views/transaction.py:60
+msgid "Comment does not exist."
+msgstr "Le commentaire n'existe pas."
+
+#: v1/claims/views/claim.py:150 v1/transactions/views/transaction.py:72
+msgid "User can not remove the comment"
+msgstr "L'utilisateur ne peut pas supprimer le commentaire"
+
+#: v1/claims/views/claim.py:152 v1/transactions/views/transaction.py:74
+msgid "Comment deleted successfully."
+msgstr "Commentaire supprimé avec succès."
+
+#: v1/dashboard/models.py:32 v1/dashboard/models.py:157
+msgid "Is Default Theme"
+msgstr "Est le thème par défaut"
+
+#: v1/dashboard/models.py:38
+msgid "Primary Colour Aplpha"
+msgstr "Couleur primaire Alpha"
+
+#: v1/dashboard/models.py:41
+msgid "Primary Colour Beta"
+msgstr "Couleur primaire Beta"
+
+#: v1/dashboard/models.py:44
+msgid "Primary Colour Gamma"
+msgstr "Couleur primaire Gamma"
+
+#: v1/dashboard/models.py:47
+msgid "Primary Colour Delta"
+msgstr "Couleur primaire Delta"
+
+#: v1/dashboard/models.py:51 v1/dashboard/models.py:167
+msgid "Secondary Colour"
+msgstr "Couleur secondaire"
+
+#: v1/dashboard/models.py:55
+msgid "Font Colour Aplpha"
+msgstr "Couleur de la police Alpha"
+
+#: v1/dashboard/models.py:58
+msgid "Font Colour Beta"
+msgstr "Couleur de la police Beta"
+
+#: v1/dashboard/models.py:61
+msgid "Font Colour Negative"
+msgstr "Couleur de la police Négative"
+
+#: v1/dashboard/models.py:65
+msgid "Boarder Colour Aplpha"
+msgstr "Couleur du panneau Aplpha"
+
+#: v1/dashboard/models.py:68
+msgid "Boarder Colour Beta"
+msgstr "Couleur du panneau Beta"
+
+#: v1/dashboard/models.py:72 v1/dashboard/models.py:170
+msgid "Background Colour Alpha"
+msgstr "Couleur d'arrière-plan alpha"
+
+#: v1/dashboard/models.py:75
+msgid "Background Colour Beta"
+msgstr "Couleur d'arrière-plan bêta"
+
+#: v1/dashboard/models.py:79
+msgid "Sidebar Colour"
+msgstr "Couleur de la barre latérale"
+
+#: v1/dashboard/models.py:83
+msgid "Danger Colour"
+msgstr "Couleur dangereuse"
+
+#: v1/dashboard/models.py:86
+msgid "Success Colour"
+msgstr "Couleur du succès"
+
+#: v1/dashboard/models.py:89
+msgid "Warning Colour"
+msgstr "Couleur d'avertissement"
+
+#: v1/dashboard/models.py:92
+msgid "Error Text Colour"
+msgstr "Couleur du texte d'erreur"
+
+#: v1/dashboard/models.py:95
+msgid "Pending Colour"
+msgstr "Couleur en attente"
+
+#: v1/dashboard/models.py:98
+msgid "Approved Colour"
+msgstr "Couleur approuvée"
+
+#: v1/dashboard/models.py:101
+msgid "Rejected Colour"
+msgstr "Couleur sélectionnée dans la carte"
+
+#: v1/dashboard/models.py:104
+msgid "Placeholder Colour"
+msgstr "Couleur de l'espace réservé"
+
+#: v1/dashboard/models.py:147
+msgid "Supplychains"
+msgstr "Chaînes d'approvisionnement"
+
+#: v1/dashboard/models.py:155
+#, fuzzy
+#| msgid "Is Default Template"
+msgid "Default Batch"
+msgstr "Est le modèle par défaut"
+
+#: v1/dashboard/models.py:160
+msgid "Tracker Logo"
+msgstr ""
+
+#: v1/dashboard/models.py:164
+msgid "Primary Colour"
+msgstr "Couleur primaire"
+
+#: v1/dashboard/models.py:173
+#, fuzzy
+#| msgid "Primary Key"
+msgid "Primary White"
+msgstr "Clé primaire"
+
+#: v1/dashboard/models.py:177
+#, fuzzy
+#| msgid "Text Colour"
+msgid "Text Colour Primary"
+msgstr "Couleur du texte"
+
+#: v1/dashboard/models.py:180
+#, fuzzy
+#| msgid "Text Colour"
+msgid "Text Colour Secondary"
+msgstr "Couleur du texte"
+
+#: v1/dashboard/models.py:183
+#, fuzzy
+#| msgid "Font Colour Aplpha"
+msgid "Text Colour Alpha"
+msgstr "Couleur de la police Alpha"
+
+#: v1/dashboard/models.py:186
+#, fuzzy
+#| msgid "Text Colour"
+msgid "Text Colour Beta"
+msgstr "Couleur du texte"
+
+#: v1/dashboard/models.py:189
+#, fuzzy
+#| msgid "Text Colour"
+msgid "Text Colour Gamma"
+msgstr "Couleur du texte"
+
+#: v1/dashboard/models.py:192
+#, fuzzy
+#| msgid "Text Colour"
+msgid "Text Colour Delta"
+msgstr "Couleur du texte"
+
+#: v1/dashboard/models.py:195
+#, fuzzy
+#| msgid "Selected Colour In Map"
+msgid "Text Colour In Map"
+msgstr "Couleur sélectionnée dans la carte"
+
+#: v1/dashboard/models.py:199
+#, fuzzy
+#| msgid "Boarder Colour Aplpha"
+msgid "Shade Colour Alpha"
+msgstr "Couleur du panneau Aplpha"
+
+#: v1/dashboard/models.py:202
+#, fuzzy
+#| msgid "Boarder Colour Beta"
+msgid "Shade Colour Beta"
+msgstr "Couleur du panneau Beta"
+
+#: v1/dashboard/models.py:205
+#, fuzzy
+#| msgid "Primary Colour Gamma"
+msgid "Shade Colour Gamma"
+msgstr "Couleur primaire Gamma"
+
+#: v1/dashboard/models.py:209
+#, fuzzy
+#| msgid "Boarder Colour Beta"
+msgid "Border Colour Of Header"
+msgstr "Couleur du panneau Beta"
+
+#: v1/dashboard/models.py:213
+#, fuzzy
+#| msgid "Background Colour Alpha"
+msgid "Transaction Type Colour Alpha"
+msgstr "Couleur d'arrière-plan alpha"
+
+#: v1/dashboard/models.py:216
+#, fuzzy
+#| msgid "Transaction Created"
+msgid "Transaction Type Colour Beta"
+msgstr "Transaction créée"
+
+#: v1/dashboard/serializers/theme.py:34
+msgid "Tenant can not set dashboard theme."
+msgstr "Le locataire ne peut pas définir le thème du tableau de bord."
+
+#: v1/dashboard/serializers/theme.py:60
+msgid "Tenant can not set tracker theme."
+msgstr "Le locataire ne peut pas définir le thème du traceur."
+
+#: v1/dynamic_forms/constants.py:8
+msgid "Node Form"
+msgstr "Forme du nœud"
+
+#: v1/dynamic_forms/constants.py:9
+msgid "Node Member Form"
+msgstr "Formulaire de membre de nœud"
+
+#: v1/dynamic_forms/constants.py:10
+msgid "Internal Transaction Form"
+msgstr "Formulaire de transaction interne"
+
+#: v1/dynamic_forms/constants.py:11
+msgid "External Transaction Form"
+msgstr "Formulaire de transaction externe"
+
+#: v1/dynamic_forms/constants.py:12
+msgid "Claim Form"
+msgstr "Formulaire de revendication"
+
+#: v1/dynamic_forms/constants.py:13
+msgid "Connection Form"
+msgstr "Formulaire de connexion"
+
+#: v1/dynamic_forms/constants.py:14
+msgid "Transaction Enquiry Form"
+msgstr "Formulaire de demande de transaction"
+
+#: v1/dynamic_forms/constants.py:18
+msgid "Text"
+msgstr "Texte"
+
+#: v1/dynamic_forms/constants.py:19
+msgid "Number"
+msgstr "Numéro"
+
+#: v1/dynamic_forms/constants.py:21
+msgid "Check-Box"
+msgstr "case à cocher"
+
+#: v1/dynamic_forms/constants.py:22
+msgid "Paragraph"
+msgstr "Paragraphe"
+
+#: v1/dynamic_forms/constants.py:23 v1/dynamic_forms/models.py:208
+msgid "File"
+msgstr "Fichier"
+
+#: v1/dynamic_forms/constants.py:25
+msgid "Drop Down"
+msgstr "liste déroulante"
+
+#: v1/dynamic_forms/constants.py:26
+msgid "MultiSelect Drop Down"
+msgstr "liste déroulante multi-sélection"
+
+#: v1/dynamic_forms/constants.py:27
+msgid "Radio Button"
+msgstr "Bouton radio"
+
+#: v1/dynamic_forms/constants.py:31
+msgid "Small"
+msgstr "Petit"
+
+#: v1/dynamic_forms/constants.py:32 v1/risk/constants.py:9
+msgid "Medium"
+msgstr "Moyen"
+
+#: v1/dynamic_forms/constants.py:33
+msgid "Large"
+msgstr "Large"
+
+#: v1/dynamic_forms/models.py:35
+msgid "Form Type"
+msgstr "Type de formulaire"
+
+#: v1/dynamic_forms/models.py:37
+msgid "Form Version"
+msgstr "Version du formulaire"
+
+#: v1/dynamic_forms/models.py:62
+msgid "Option"
+msgstr "Option"
+
+#: v1/dynamic_forms/models.py:64
+msgid "Is Default Option"
+msgstr "Est l'option par défaut"
+
+#: v1/dynamic_forms/models.py:66
+msgid "Is Option Active"
+msgstr "est l'option active"
+
+#: v1/dynamic_forms/models.py:96 v1/dynamic_forms/models.py:160
+#: v1/dynamic_forms/models.py:197
+msgid "Form"
+msgstr "Formulaire"
+
+#: v1/dynamic_forms/models.py:104
+msgid "Label"
+msgstr "Étiquette"
+
+#: v1/dynamic_forms/models.py:107
+msgid "Place Holder"
+msgstr "Porte-places"
+
+#: v1/dynamic_forms/models.py:110
+msgid "Key"
+msgstr "Clé"
+
+#: v1/dynamic_forms/models.py:112
+msgid "Position"
+msgstr "Position"
+
+#: v1/dynamic_forms/models.py:116
+msgid "Options"
+msgstr "Options"
+
+#: v1/dynamic_forms/models.py:120
+msgid "More Info"
+msgstr "Plus d'informations"
+
+#: v1/dynamic_forms/models.py:124
+msgid "Field Width"
+msgstr "Largeur du champ"
+
+#: v1/dynamic_forms/models.py:204
+msgid "Value"
+msgstr "Valeur"
+
+#: v1/dynamic_forms/models.py:211
+msgid "Selected Options"
+msgstr "Options sélectionnées"
+
+#: v1/dynamic_forms/models.py:214
+msgid "File hash"
+msgstr "Hachage de fichier"
+
+#: v1/dynamic_forms/serializers/form.py:63
+msgid "Option validation failed"
+msgstr "La validation de l'option a échoué"
+
+#: v1/dynamic_forms/serializers/form.py:224
+msgid "Field Updation Failed !"
+msgstr "La mise à jour des champs a échoué !"
+
+#: v1/nodes/constants.py:9
+msgid "Producer"
+msgstr "Producteur"
+
+#: v1/nodes/constants.py:13 v1/products/models.py:45 v1/products/models.py:94
+#: v1/supply_chains/models.py:121 v1/tenants/models.py:465
+msgid "Active"
+msgstr "Actif"
+
+#: v1/nodes/constants.py:14
+msgid "Inactive"
+msgstr "Inactif"
+
+#: v1/nodes/constants.py:18 v1/tenants/constants.py:9
+msgid "Super Admin"
+msgstr "Super Admin"
+
+#: v1/nodes/constants.py:19 v1/tenants/constants.py:8
+msgid "Admin"
+msgstr "Admin"
+
+#: v1/nodes/constants.py:20
+msgid "Connection Manager"
+msgstr "Gestionnaire de connexion"
+
+#: v1/nodes/constants.py:21
+msgid "Transaction Manager"
+msgstr "Gestionnaire de transactions"
+
+#: v1/nodes/constants.py:22
+msgid "Reporter"
+msgstr "Reporter"
+
+#: v1/nodes/constants.py:26
+msgid "Company Document"
+msgstr "Document de société"
+
+#: v1/nodes/constants.py:27
+msgid "Incorporation Document"
+msgstr "Document d'incorporation"
+
+#: v1/nodes/constants.py:28
+msgid "Certification"
+msgstr "Certification"
+
+#: v1/nodes/constants.py:29
+msgid "Annual Report"
+msgstr "Rapport annuel"
+
+#: v1/nodes/constants.py:38
+msgid "Tenant Specific"
+msgstr "Spécifique au locataire"
+
+#: v1/nodes/constants.py:39
+msgid "Visible"
+msgstr "Visible"
+
+#: v1/nodes/constants.py:40 v1/tenants/constants.py:14
+msgid "Fully Anonymous"
+msgstr "Totalement anonyme"
+
+#: v1/nodes/models.py:63 v1/tenants/models.py:469
+msgid "Categories"
+msgstr "Catégories"
+
+#: v1/nodes/models.py:67
+msgid "Node Name"
+msgstr "Nom du nœud"
+
+#: v1/nodes/models.py:70
+msgid "Right Origins Traceability Code"
+msgstr "code de traçabilité de Right Origins"
+
+#: v1/nodes/models.py:73
+#, fuzzy
+#| msgid "Right Origins Traceability Code"
+msgid "Right Origins Identity Number"
+msgstr "code de traçabilité de Right Origins"
+
+#: v1/nodes/models.py:76
+msgid "Node Registartion Number"
+msgstr "Numéro d'enregistrement du nœud"
+
+#: v1/nodes/models.py:79
+msgid "Node Type"
+msgstr "Type de nœud"
+
+#: v1/nodes/models.py:82
+msgid "Contact Person Name"
+msgstr "Nom de la personne de contact"
+
+#: v1/nodes/models.py:84
+msgid "Email Name"
+msgstr "Nom de l'email"
+
+#: v1/nodes/models.py:94 v1/supply_chains/models.py:184
+msgid "Invited By"
+msgstr "Inviter par"
+
+#: v1/nodes/models.py:96
+msgid "Invited Date"
+msgstr "Date de l'invitation"
+
+#: v1/nodes/models.py:98
+msgid "Joining Date"
+msgstr "Date d'entrée en fonction"
+
+#: v1/nodes/models.py:102
+msgid "Node Current Status"
+msgstr "État actuel du nœud"
+
+#: v1/nodes/models.py:104
+msgid "Is Node Verified"
+msgstr "est un nœud vérifié"
+
+#: v1/nodes/models.py:106
+msgid "Is Node Producer"
+msgstr "Est le producteur de nœuds"
+
+#: v1/nodes/models.py:108
+msgid "Is Node Verifier"
+msgstr "Est le vérificateur de nœuds"
+
+#: v1/nodes/models.py:111
+msgid "Member Nodes"
+msgstr "Nœuds membres"
+
+#: v1/nodes/models.py:120
+msgid "Province of Node"
+msgstr "Province du nœud"
+
+#: v1/nodes/models.py:123
+msgid "Node Connections"
+msgstr "Connexions des nœuds"
+
+#: v1/nodes/models.py:128
+msgid "Incharge"
+msgstr "Responsable"
+
+#: v1/nodes/models.py:132
+msgid "Default Currency"
+msgstr "Devise par défaut"
+
+#: v1/nodes/models.py:134
+msgid "Is Node Discoverable To Others"
+msgstr "est un nœud découvert par d'autres"
+
+#: v1/nodes/models.py:138
+msgid "Node Visibility"
+msgstr "Visibilité des nœuds"
+
+#: v1/nodes/models.py:139 v1/transactions/models.py:116
+msgid "Upload Id"
+msgstr ""
+
+#: v1/nodes/models.py:270
+msgid "Member User"
+msgstr "Membre utilisateur"
+
+#: v1/nodes/models.py:281
+msgid "Member Type"
+msgstr "Type de membre"
+
+#: v1/nodes/models.py:283
+msgid "Is Member Active"
+msgstr "Est membre actif"
+
+#: v1/nodes/models.py:286
+msgid "Default Supplychain Of Member"
+msgstr "Chaîne d'approvisionnement par défaut du membre"
+
+#: v1/nodes/models.py:367
+msgid "File Description"
+msgstr "Description du fichier"
+
+#: v1/nodes/models.py:374
+msgid "Document Category"
+msgstr "Catégorie de document"
+
+#: v1/nodes/models.py:377
+msgid "Is File Deleted"
+msgstr "Le fichier est supprimé"
+
+#: v1/nodes/notifications.py:37
+#, python-brace-format
+msgid "Team member invitation from {name}"
+msgstr "Invitation de membre de l'équipe de {name}"
+
+#: v1/nodes/notifications.py:41
+#, python-brace-format
+msgid ""
+"You have been invited to {ten_name}'s traceability portal to manage "
+"{node_name} by {inviter_name}."
+msgstr ""
+"Vous avez été invité sur le portail de traçabilité de {ten_name} pour gérer "
+"{node_name} par {inviter_name}."
+
+#: v1/nodes/notifications.py:104
+msgid "New company document added."
+msgstr "Ajout d'un nouveau document de société."
+
+#: v1/nodes/notifications.py:107
+#, python-brace-format
+msgid "New company document added under the category {category}."
+msgstr "Nouveau document d'entreprise ajouté sous la catégorie {category}."
+
+#: v1/nodes/views/node.py:68
+msgid "Document can not be deleted."
+msgstr "Le document ne peut pas être supprimé."
+
+#: v1/nodes/views/node.py:70
+msgid "Document deleted successfully."
+msgstr "Document supprimé avec succès."
+
+#: v1/nodes/views/node.py:101
+msgid "Can not remove super admin admin."
+msgstr "Impossible de supprimer super admin admin."
+
+#: v1/nodes/views/node.py:106
+msgid "Member deleted successfully."
+msgstr "Membre supprimé avec succès."
+
+#: v1/nodes/views/node.py:123
+msgid "Node member does not exist"
+msgstr "Le membre du nœud n'existe pas"
+
+#: v1/nodes/views/node.py:125
+msgid "Resend successfully"
+msgstr "Renvoi réussi"
+
+#: v1/notifications/constants.py:8
+#, fuzzy
+#| msgid "Is Claim Enabled"
+msgid "Enabled"
+msgstr "est une revendication activée"
+
+#: v1/notifications/constants.py:9
+msgid "Disabled"
+msgstr ""
+
+#: v1/notifications/constants.py:10
+#, fuzzy
+#| msgid "User Active"
+msgid "If user is active"
+msgstr "Utilisateur actif"
+
+#: v1/notifications/manager.py:21
+msgid "Dashboard"
+msgstr ""
+
+#: v1/notifications/manager.py:143
+msgid "Cannot specify '__all__' and Member Types together"
+msgstr ""
+
+#: v1/notifications/manager.py:147
+#, python-brace-format
+msgid "Notification preference not defined for {member_type}"
+msgstr ""
+
+#: v1/notifications/manager.py:160
+#, python-brace-format
+msgid ""
+"Blank 'notification_uid' for {notif_name}. notification_uid cannot be blank"
+msgstr ""
+
+#: v1/notifications/manager.py:164
+msgid "notification_uid should be Unique. "
+msgstr ""
+
+#: v1/notifications/serializers.py:58
+msgid "Either 'ids' should be mentioned or 'all' should be True"
+msgstr "Soit 'ids' doit être mentionné, soit 'all' doit être vrai"
+
+#: v1/products/models.py:39 v1/products/models.py:93 v1/products/models.py:147
+#: v1/transactions/models.py:103 v1/transactions/models.py:271
+msgid "Unit"
+msgstr "Unité"
+
+#: v1/products/models.py:42
+msgid "Unit Symbol"
+msgstr "Symbole de l'unité"
+
+#: v1/products/models.py:44
+msgid "Factor Value"
+msgstr "Valeur du facteur"
+
+#: v1/products/models.py:48
+msgid "Unit Equivalent In Kilogram"
+msgstr "Unité équivalente en kilogramme"
+
+#: v1/products/models.py:80 v1/supply_chains/models.py:166
+msgid "Supplychain"
+msgstr "Chaîne d'approvisionnement"
+
+#: v1/products/models.py:84 v1/products/models.py:143
+#: v1/transactions/models.py:612
+msgid "Product"
+msgstr "Produit"
+
+#: v1/products/models.py:152
+msgid "Verified Batch Percentage"
+msgstr "Pourcentage du lot vérifié"
+
+#: v1/products/models.py:155
+msgid "Batch Initial Quantity"
+msgstr "Lot Quantité initiale"
+
+#: v1/products/models.py:158
+msgid "Batch Initial Quantity In KG"
+msgstr "Lot Quantité initiale en KG"
+
+#: v1/products/models.py:161
+msgid "Batch Current Quantity"
+msgstr "Lot Quantité actuelle"
+
+#: v1/products/models.py:164
+msgid "Batch Current Quantity In KG"
+msgstr "Lot Quantité actuelle en KG"
+
+#: v1/products/models.py:166 v1/transactions/models.py:105
+msgid "Note"
+msgstr "Note"
+
+#: v1/products/serializers/batch.py:242 v1/products/serializers/batch.py:245
+#, fuzzy, python-brace-format
+#| msgid "Created for transfering {product} to {receiver}"
+msgid "Created {product} directly by {receiver}"
+msgstr "Créé pour transférer {product} à {receiver}"
+
+#: v1/products/serializers/batch.py:256
+msgid "Non producers cannot create stock directly."
+msgstr ""
+
+#: v1/risk/constants.py:8
+msgid "Low"
+msgstr ""
+
+#: v1/risk/constants.py:10
+msgid "High"
+msgstr ""
+
+#: v1/risk/constants.py:14
+msgid "Environment"
+msgstr ""
+
+#: v1/risk/constants.py:15
+msgid "Social"
+msgstr ""
+
+#: v1/risk/constants.py:16
+msgid "Governance"
+msgstr ""
+
+#: v1/risk/constants.py:17
+msgid "Overall"
+msgstr ""
+
+#: v1/risk/constants.py:21
+msgid "Risky"
+msgstr ""
+
+#: v1/risk/constants.py:22
+msgid "Safe"
+msgstr ""
+
+#: v1/risk/constants.py:23
+msgid "All"
+msgstr ""
+
+#: v1/risk/models.py:170
+#, fuzzy
+#| msgid "Category Name"
+msgid "Category Score"
+msgstr "Nom de la catégorie"
+
+#: v1/risk/models.py:193
+#, fuzzy
+#| msgid "Comment"
+msgid "Risk Comments"
+msgstr "Commentaire"
+
+#: v1/supply_chains/constants.py:9
+msgid "Revoked"
+msgstr "Révoqué"
+
+#: v1/supply_chains/models.py:34
+msgid "Type Of Node"
+msgstr "Type de nœud"
+
+#: v1/supply_chains/models.py:36
+msgid "Category"
+msgstr "Catégorie"
+
+#: v1/supply_chains/models.py:41
+#, fuzzy
+#| msgid "Extra Fields For Internal Transaction"
+msgid "Extra Fields For Invitation"
+msgstr "Champs supplémentaires pour les transactions internes"
+
+#: v1/supply_chains/models.py:45
+#, fuzzy
+#| msgid "Extra Fields For Claim"
+msgid "Extra Fields For Signup"
+msgstr "Champs supplémentaires pour la revendication"
+
+#: v1/supply_chains/models.py:48
+msgid "Dashboard_visible"
+msgstr ""
+
+#: v1/supply_chains/models.py:50
+#, fuzzy
+#| msgid "Visible"
+msgid "Form_visible"
+msgstr "Visible"
+
+#: v1/supply_chains/models.py:81
+msgid "Tag"
+msgstr "Étiquette"
+
+#: v1/supply_chains/models.py:82
+msgid "Block"
+msgstr "Bloc"
+
+#: v1/supply_chains/models.py:114
+msgid "Supply Chain Name"
+msgstr "Nom de la chaîne d'approvisionnement"
+
+#: v1/supply_chains/models.py:154
+msgid "Connection pair"
+msgstr "Paire de connexions"
+
+#: v1/supply_chains/models.py:160
+msgid "Connected From"
+msgstr "Connecté depuis"
+
+#: v1/supply_chains/models.py:163
+msgid "Connected To"
+msgstr "Connecté à"
+
+#: v1/supply_chains/models.py:169
+msgid "Connection Tags"
+msgstr "Tags de connexion"
+
+#: v1/supply_chains/models.py:176
+msgid "GraphDB Id"
+msgstr "Id. GraphDB"
+
+#: v1/supply_chains/models.py:180
+msgid "Connection Status"
+msgstr "État de la connexion"
+
+#: v1/supply_chains/models.py:187
+msgid "Target is a Buyer"
+msgstr ""
+
+#: v1/supply_chains/models.py:189
+msgid "Target is a Supplier"
+msgstr ""
+
+#: v1/supply_chains/notifications.py:53
+#, python-brace-format
+msgid "New connection from {source}"
+msgstr "Nouvelle connexion depuis {source}"
+
+#: v1/supply_chains/notifications.py:57
+#, python-brace-format
+msgid ""
+"{target_name} received a new connection from {source_name} in {sc_name} "
+"supply chain."
+msgstr ""
+"{target_name} a reçu une nouvelle connexion de {source_name} dans la chaîne "
+"d'approvisionnement de {sc_name}."
+
+#: v1/tenants/constants.py:13
+msgid "Fully Visible"
+msgstr "Entièrement visible"
+
+#: v1/tenants/constants.py:15
+msgid "Node Managed Visible Default"
+msgstr "noeud géré visible par défaut"
+
+#: v1/tenants/constants.py:16
+msgid "Node Managed Anonymous Default"
+msgstr "noeud géré anonyme par défaut"
+
+#: v1/tenants/constants.py:21
+msgid "CI Not Available"
+msgstr "CI Non disponible"
+
+#: v1/tenants/constants.py:22
+msgid "Tenant Level"
+msgstr "Niveau du locataire"
+
+#: v1/tenants/constants.py:23
+msgid "Node Level"
+msgstr "Niveau du nœud"
+
+#: v1/tenants/constants.py:28
+msgid "Node Document"
+msgstr "Document de nœud"
+
+#: v1/tenants/models.py:41
+msgid "Tenant Name"
+msgstr "Nom du locataire"
+
+#: v1/tenants/models.py:43
+msgid "Tenant subdomain"
+msgstr "Sous-domaine du locataire"
+
+#: v1/tenants/models.py:46
+msgid "Country List"
+msgstr "Liste des pays"
+
+#: v1/tenants/models.py:49
+msgid "Extra Fields For Node"
+msgstr "Champs supplémentaires pour le nœud"
+
+#: v1/tenants/models.py:53
+msgid "Extra Fields For Node Member"
+msgstr "Champs supplémentaires pour le membre du nœud"
+
+#: v1/tenants/models.py:57
+msgid "Extra Fields For Internal Transaction"
+msgstr "Champs supplémentaires pour les transactions internes"
+
+#: v1/tenants/models.py:61
+msgid "Extra Fields For External Transaction"
+msgstr "Champs supplémentaires pour les transactions externes"
+
+#: v1/tenants/models.py:65
+msgid "Extra Fields For Claim"
+msgstr "Champs supplémentaires pour la revendication"
+
+#: v1/tenants/models.py:69
+msgid "Extra Fields For Transaction Enquiry"
+msgstr "Champs supplémentaires pour l'enquête sur les transactions"
+
+#: v1/tenants/models.py:89 v1/tenants/models.py:121
+msgid "Node Anonymity"
+msgstr "Anonymat des nœuds"
+
+#: v1/tenants/models.py:91
+msgid "Bulk Upload Enabled"
+msgstr "Chargement en masse activé"
+
+#: v1/tenants/models.py:93
+msgid "Is Tenant Customized Excel Enabled"
+msgstr "Est-ce que le logiciel Excel personnalisé par le locataire est activé"
+
+#: v1/tenants/models.py:95
+msgid "Dynamic Fields Enabled"
+msgstr "Champs dynamiques activés"
+
+#: v1/tenants/models.py:98
+msgid "Is Dashboard Theming Enabled"
+msgstr "est un habillage du tableau de bord activé"
+
+#: v1/tenants/models.py:100
+msgid "Is Consumer Interface Theming Enabled"
+msgstr "est une interface du consommateur activée"
+
+#: v1/tenants/models.py:103
+msgid "Is Blockchain Enabled"
+msgstr "est une chaîne de blocs activée"
+
+#: v1/tenants/models.py:106
+msgid "Is Transaction Enabled"
+msgstr "est une transaction activée"
+
+#: v1/tenants/models.py:108
+msgid "Is Claim Enabled"
+msgstr "est une revendication activée"
+
+#: v1/tenants/models.py:110
+msgid "Is Company Claim Enabled"
+msgstr "est une revendication de la société activée"
+
+#: v1/tenants/models.py:112
+msgid "Is Batch Claim Enabled"
+msgstr "est une revendication par lot activée"
+
+#: v1/tenants/models.py:114
+msgid "Is Purchase Order Enabled"
+msgstr "est une commande d'achat activée"
+
+#: v1/tenants/models.py:116
+#, fuzzy
+#| msgid "Is Claim Enabled"
+msgid "Is Risk Analysis Enabled"
+msgstr "est une revendication activée"
+
+#: v1/tenants/models.py:124
+msgid "Is Mobile App Enabled"
+msgstr "est une application mobile activée"
+
+#: v1/tenants/models.py:128
+msgid "Hedera Topic ID"
+msgstr "ID du thème Hedera"
+
+#: v1/tenants/models.py:131
+msgid "Non Producer can create stock"
+msgstr ""
+
+#: v1/tenants/models.py:141
+msgid "Cannot have more than one tenant in Enterprise mode"
+msgstr "Impossible d'avoir plus d'un locataire en mode Société"
+
+#: v1/tenants/models.py:274
+msgid "Admin User"
+msgstr "Utilisateur Admin"
+
+#: v1/tenants/models.py:279
+msgid "Admin Type"
+msgstr "Type d'administration"
+
+#: v1/tenants/models.py:300
+msgid "Currency Name"
+msgstr "Nom de la devise"
+
+#: v1/tenants/models.py:303
+msgid "Currency Code"
+msgstr "Code devise"
+
+#: v1/tenants/models.py:331 v1/transactions/models.py:438
+#: v1/transactions/models.py:609
+msgid "Currency"
+msgstr "Devise"
+
+#: v1/tenants/models.py:335
+msgid "Country Name"
+msgstr "Nom du pays"
+
+#: v1/tenants/models.py:338 v1/tenants/models.py:385
+msgid "Latitude"
+msgstr "Latitude"
+
+#: v1/tenants/models.py:341 v1/tenants/models.py:388
+msgid "Longitude"
+msgstr "Longitude"
+
+#: v1/tenants/models.py:344
+msgid "Country Code"
+msgstr "Code pays"
+
+#: v1/tenants/models.py:347
+#, fuzzy
+#| msgid "Country Code"
+msgid "CCA3 Country Code"
+msgstr "Code pays"
+
+#: v1/tenants/models.py:350
+msgid "Dial Code"
+msgstr "Composez le code"
+
+#: v1/tenants/models.py:378
+msgid "Country"
+msgstr "Pays"
+
+#: v1/tenants/models.py:382
+msgid "Province Name"
+msgstr "Nom de la province"
+
+#: v1/tenants/models.py:410
+#, fuzzy
+#| msgid "Provinces"
+msgid "Province"
+msgstr "Provinces"
+
+#: v1/tenants/models.py:414
+#, fuzzy
+#| msgid "Category Name"
+msgid "Region Name"
+msgstr "Nom de la catégorie"
+
+#: v1/tenants/models.py:431
+msgid "Region"
+msgstr ""
+
+#: v1/tenants/models.py:435
+#, fuzzy
+#| msgid "File Name"
+msgid "Village Name"
+msgstr "Nom du fichier"
+
+#: v1/tenants/models.py:460
+msgid "Category Name"
+msgstr "Nom de la catégorie"
+
+#: v1/tenants/models.py:464
+msgid "Category Type"
+msgstr "Type de catégorie"
+
+#: v1/tenants/serializers/tenant.py:28
+msgid "Invalid tenant"
+msgstr "Locataire non valide"
+
+#: v1/tenants/views/category.py:45
+msgid "Category can not be deleted."
+msgstr "La catégorie ne peut pas être supprimée."
+
+#: v1/tenants/views/category.py:47
+msgid "Category deleted successfully."
+msgstr "Catégorie supprimée avec succès."
+
+#: v1/transactions/constants.py:9
+msgid "External Transaction"
+msgstr "Transaction externe"
+
+#: v1/transactions/constants.py:10
+msgid "Internal Transaction"
+msgstr "Transaction interne"
+
+#: v1/transactions/constants.py:14
+msgid "Transaction Created"
+msgstr "Transaction créée"
+
+#: v1/transactions/constants.py:15
+msgid "Transaction Declined"
+msgstr "Transaction refusée"
+
+#: v1/transactions/constants.py:16
+msgid "Transaction On-hold"
+msgstr "Transaction en attente"
+
+#: v1/transactions/constants.py:17
+msgid "Transaction  Approved"
+msgstr "Transaction approuvée"
+
+#: v1/transactions/constants.py:21
+msgid "Processing"
+msgstr "Traitement"
+
+#: v1/transactions/constants.py:22
+msgid "Loss"
+msgstr "Perte"
+
+#: v1/transactions/constants.py:23
+msgid "Merge"
+msgstr "Fusionner"
+
+#: v1/transactions/constants.py:32
+msgid "Incoming"
+msgstr "Entrant"
+
+#: v1/transactions/constants.py:33
+msgid "Outgoing"
+msgstr "Sortie"
+
+#: v1/transactions/constants.py:34
+msgid "Reversal"
+msgstr "Renversement de situation"
+
+#: v1/transactions/constants.py:35
+msgid "Incoming Without Source"
+msgstr "Entrant sans source"
+
+#: v1/transactions/constants.py:42
+msgid "On-hold"
+msgstr "En attente"
+
+#: v1/transactions/constants.py:43
+msgid "Cancelled"
+msgstr "Annulé"
+
+#: v1/transactions/constants.py:48
+msgid "Purchase Order"
+msgstr "Bon de commande"
+
+#: v1/transactions/constants.py:49
+msgid "Sender Enquiry"
+msgstr "Demande de renseignements sur l'expéditeur"
+
+#: v1/transactions/constants.py:58
+msgid "Quality Issue"
+msgstr ""
+
+#: v1/transactions/constants.py:59
+msgid "Data Issue"
+msgstr ""
+
+#: v1/transactions/constants.py:60
+msgid "Other Reason"
+msgstr ""
+
+#: v1/transactions/models.py:67
+msgid "Parent Transactions"
+msgstr "Transactions avec les parents"
+
+#: v1/transactions/models.py:69
+msgid "Transaction Date"
+msgstr "Date de la transaction"
+
+#: v1/transactions/models.py:73
+msgid "Type Of Transaction"
+msgstr "Type de transaction"
+
+#: v1/transactions/models.py:77
+msgid "Status Of Transaction"
+msgstr "Statut de la transaction"
+
+#: v1/transactions/models.py:80
+msgid "Source Product Quantity"
+msgstr "Source Produit Quantité"
+
+#: v1/transactions/models.py:83
+msgid "Source Product Quantity In KG"
+msgstr "Source Produit Quantité en KG"
+
+#: v1/transactions/models.py:86
+msgid "Destination Product Quantity"
+msgstr "Quantité de produit de destination"
+
+#: v1/transactions/models.py:89
+msgid "Destination Product Quantity In KG"
+msgstr "Destination Quantité de produit en KG"
+
+#: v1/transactions/models.py:93
+msgid "Source Batches"
+msgstr "Lots d'origine"
+
+#: v1/transactions/models.py:96
+msgid "Transaction Result Batch"
+msgstr "Lot de résultats de transaction"
+
+#: v1/transactions/models.py:108
+msgid "Attached Purchase Order"
+msgstr "Bon de commande ci-joint"
+
+#: v1/transactions/models.py:113
+msgid "Approver/Rejector"
+msgstr "Approbateur/ Réjecteur"
+
+#: v1/transactions/models.py:120
+#, fuzzy
+#| msgid "Rejection Reason"
+msgid "Transaction Rejection Reason"
+msgstr "Motif du rejet"
+
+#: v1/transactions/models.py:190
+msgid "Transaction is already rejected"
+msgstr "La transaction est déjà rejetée"
+
+#: v1/transactions/models.py:203
+msgid "Transaction is already approved"
+msgstr "La transaction est déjà approuvée"
+
+#: v1/transactions/models.py:278
+msgid "Quantity"
+msgstr "Quantité"
+
+#: v1/transactions/models.py:281
+msgid "Quantity In KG"
+msgstr "Quantité en KG"
+
+#: v1/transactions/models.py:332
+msgid "Type Of Internal Transaction"
+msgstr "Type de transaction interne"
+
+#: v1/transactions/models.py:336
+msgid "Mode Of Transaction"
+msgstr "Mode de transaction"
+
+#: v1/transactions/models.py:354
+#, python-brace-format
+msgid "converted to {products}"
+msgstr "converti en {products}"
+
+#: v1/transactions/models.py:356
+msgid "merged"
+msgstr "fusionné"
+
+#: v1/transactions/models.py:358
+msgid "removed"
+msgstr "supprimé"
+
+#: v1/transactions/models.py:359
+#, python-brace-format
+msgid "{kg_quantity} kg {products} {completer}"
+msgstr "{kg_quantity} kg {products} {completer}"
+
+#: v1/transactions/models.py:389
+#, fuzzy, python-brace-format
+#| msgid "Created by %s"
+msgid "Created by {action}"
+msgstr "Créé par %s"
+
+#: v1/transactions/models.py:428
+msgid "Source Node"
+msgstr "Nœud source"
+
+#: v1/transactions/models.py:432
+msgid "Destination Node"
+msgstr "Nœud de destination"
+
+#: v1/transactions/models.py:434 v1/transactions/models.py:605
+msgid "Price"
+msgstr "Prix"
+
+#: v1/transactions/models.py:442
+msgid "Type Of External Transaction"
+msgstr "Type de transaction externe"
+
+#: v1/transactions/models.py:456
+#, python-brace-format
+msgid "{kg_quantity} Kg {product_name} send to {name}"
+msgstr "{kg_quantity} Kg {product_name} envoyer à {name}"
+
+#: v1/transactions/models.py:461
+#, python-brace-format
+msgid "{kg_quantity} Kg {product_name} received."
+msgstr "{kg_quantity} Kg {product_name} reçu."
+
+#: v1/transactions/models.py:465
+#, python-brace-format
+msgid "{kg_quantity} Kg {product_name} received from {name}."
+msgstr "{kg_quantity} Kg {product_name} reçu de {name}."
+
+#: v1/transactions/models.py:470 v1/transactions/models.py:475
+#, python-brace-format
+msgid "{kg_quantity} Kg {product_name} sent back to {name}."
+msgstr "{kg_quantity} Kg {product_name} renvoyé à {name}."
+
+#: v1/transactions/models.py:598
+msgid "Sender"
+msgstr "Expéditeur"
+
+#: v1/transactions/models.py:602
+msgid "Receiver"
+msgstr "Récepteur"
+
+#: v1/transactions/models.py:616 v1/transactions/models.py:846
+msgid "Quantity Of Product"
+msgstr "Quantité de produit"
+
+#: v1/transactions/models.py:619
+msgid "Quantity Of Product In KG"
+msgstr "Quantité de produit en KG"
+
+#: v1/transactions/models.py:622
+msgid "Sent Quantity Of Product"
+msgstr "Quantité envoyée du produit"
+
+#: v1/transactions/models.py:625
+msgid "Sent Quantity Of Product In KG"
+msgstr "Quantité envoyée du produit en KG"
+
+#: v1/transactions/models.py:628
+msgid "Unit Of Product"
+msgstr "Unité de produit"
+
+#: v1/transactions/models.py:632
+msgid "PurachaseOrder Status"
+msgstr "statut de la commande d'achat"
+
+#: v1/transactions/models.py:635
+msgid "Claims Needed"
+msgstr "Besoin de revendications"
+
+#: v1/transactions/models.py:638 v1/transactions/models.py:849
+msgid "Expected Delivery Date"
+msgstr "Date de livraison prévue"
+
+#: v1/transactions/models.py:640
+msgid "Enquiry Date"
+msgstr "Date de la demande"
+
+#: v1/transactions/models.py:643
+msgid "Last Notification Date"
+msgstr "Date de la dernière notification"
+
+#: v1/transactions/models.py:651
+msgid "Rejection Reason"
+msgstr "Motif du rejet"
+
+#: v1/transactions/models.py:842
+msgid "PurchaseOrder"
+msgstr "Bon de commande"
+
+#: v1/transactions/notifications.py:27 v1/transactions/notifications.py:107
+#: v1/transactions/notifications.py:192
+msgid "Show Transaction"
+msgstr "Afficher la transaction"
+
+#: v1/transactions/notifications.py:61
+#, fuzzy, python-brace-format
+#| msgid "{batch_name} received from {source_name}."
+msgid "{batch_name} sent to {destination_name}."
+msgstr "{batch_name} reçu de {source_name}."
+
+#: v1/transactions/notifications.py:66
+#, fuzzy, python-brace-format
+#| msgid "{kg_quantity}{unit} of {product}"
+msgid "{quantity}{unit} of {product}"
+msgstr "{kg_quantity}{unit} de {product}"
+
+#: v1/transactions/notifications.py:71
+#, python-brace-format
+msgid ""
+"The sale of {stock_desc} to {destination_name} was completed on {date}. You "
+"were paid {amount} {currency} for the transaction."
+msgstr ""
+"La vente de {stock_desc} à {destination_name} a été finalisée le {date}. "
+"Vous avez été payé {amount} {currency} pour la transaction."
+
+#: v1/transactions/notifications.py:142
+#, python-brace-format
+msgid "Transaction received from {source_name} for the purchase order {po_num}"
+msgstr "Transaction reçue de {source_name} pour le bon de commande {po_num}"
+
+#: v1/transactions/notifications.py:146
+#, python-brace-format
+msgid "{batch_name} received from {source_name}."
+msgstr "{batch_name} reçu de {source_name}."
+
+#: v1/transactions/notifications.py:151 v1/transactions/notifications.py:232
+#: v1/transactions/notifications.py:309 v1/transactions/notifications.py:476
+#: v1/transactions/notifications.py:634 v1/transactions/notifications.py:643
+#, python-brace-format
+msgid "{kg_quantity}{unit} of {product}"
+msgstr "{kg_quantity}{unit} de {product}"
+
+#: v1/transactions/notifications.py:156
+#, python-brace-format
+msgid "{stock_desc} received from {name} for purchase order {po_num}"
+msgstr "{stock_desc} reçu de {name} pour le bon de commande {po_num}"
+
+#: v1/transactions/notifications.py:161
+#, python-brace-format
+msgid "{stock_desc} received from {name}."
+msgstr "{stock_desc} reçu de {name}."
+
+#: v1/transactions/notifications.py:227
+#, python-brace-format
+msgid "Batch sent to {name} is approved"
+msgstr "Le lot envoyé à {name} est approuvé"
+
+#: v1/transactions/notifications.py:229
+#, python-brace-format
+msgid "Batch sent to {name} is rejected and batch reversed."
+msgstr "Le lot envoyé à {name} est rejeté et le lot annulé."
+
+#: v1/transactions/notifications.py:237
+#, python-brace-format
+msgid "{stock_desc} sent to {name} is accepted"
+msgstr "{stock_desc} envoyé à {name} est accepté"
+
+#: v1/transactions/notifications.py:240
+#, python-brace-format
+msgid "{stock_desc} sent to {name} is rejected"
+msgstr "{stock_desc} envoyé à {name} est rejeté"
+
+#: v1/transactions/notifications.py:270 v1/transactions/notifications.py:348
+#: v1/transactions/notifications.py:421
+msgid "Show Purchase Order"
+msgstr "Afficher le bon de commande"
+
+#: v1/transactions/notifications.py:304
+#, python-brace-format
+msgid "Purchase Order({po_num}) received from {name}"
+msgstr "Bon de commande ({po_num}) reçu de {name}"
+
+#: v1/transactions/notifications.py:313
+#, python-brace-format
+msgid "Purchase Order({po_num}) received from {name} for {stock_desc}"
+msgstr "Bon de commande ({po_num}) reçu de {name} pour {stock_desc}"
+
+#: v1/transactions/notifications.py:382
+#, python-brace-format
+msgid "Purchase Order({po_num}) is updated"
+msgstr "Le bon de commande ({po_num}) est mis à jour"
+
+#: v1/transactions/notifications.py:385
+#, python-brace-format
+msgid ""
+"Purchase Order({po_num}) received from {name} under the {sc_name} "
+"supplychain is updated"
+msgstr ""
+"Le bon de commande ({po_num}) reçu de {name} sous la chaîne "
+"d'approvisionnement {sc_name} est mis à jour"
+
+#: v1/transactions/notifications.py:456 v1/transactions/notifications.py:469
+msgid "pending"
+msgstr "en attendant"
+
+#: v1/transactions/notifications.py:457 v1/transactions/notifications.py:470
+msgid "approved"
+msgstr "approuvée"
+
+#: v1/transactions/notifications.py:458 v1/transactions/notifications.py:471
+msgid "rejected"
+msgstr "Rejeté"
+
+#: v1/transactions/notifications.py:459 v1/transactions/notifications.py:472
+msgid "on hold"
+msgstr "en attente"
+
+#: v1/transactions/notifications.py:460 v1/transactions/notifications.py:473
+msgid "cancelled"
+msgstr "Annulé"
+
+#: v1/transactions/notifications.py:461 v1/transactions/notifications.py:474
+msgid "partially fulfilled"
+msgstr "partiellement rempli"
+
+#: v1/transactions/notifications.py:463
+#, python-brace-format
+msgid "Purchase Order({po_num}) is {status_text}"
+msgstr "Le bon de commande ({po_num}) est {status_text}"
+
+#: v1/transactions/notifications.py:480
+#, python-brace-format
+msgid "Purchase Order({po_num}) for {stock_desc} is {status_text}"
+msgstr "Le bon de commande ({po_num}) pour {stock_desc} est {status_text}"
+
+#: v1/transactions/notifications.py:487
+#, python-brace-format
+msgid " by {receiver}"
+msgstr "par {receiver}"
+
+#: v1/transactions/notifications.py:563
+#, python-brace-format
+msgid "New comment added under the transaction {trans_num}."
+msgstr "Nouveau commentaire ajouté sous la transaction {trans_num}."
+
+#: v1/transactions/notifications.py:566
+#, python-brace-format
+msgid "New comment added under the transaction {trans_num} by {commenter}."
+msgstr ""
+"Nouveau commentaire ajouté sous la transaction {trans_num} par {commenter}."
+
+#: v1/transactions/notifications.py:638
+#, python-brace-format
+msgid "{stock_desc} will be delivered on {date}."
+msgstr "{stock_desc} sera livré le {date}."
+
+#: v1/transactions/notifications.py:647
+#, python-brace-format
+msgid "{stock_desc} will be delivered on {date} by {sender}."
+msgstr "{stock_desc} sera livré le {date} par {sender}."
+
+#: v1/transactions/serializers/external.py:137
+msgid "Nodes are not connected."
+msgstr "Les nœuds ne sont pas connectés."
+
+#: v1/transactions/serializers/external.py:142
+msgid "Selected node is not producer."
+msgstr "Le nœud sélectionné n'est pas producteur."
+
+#: v1/transactions/serializers/external.py:215
+#, python-brace-format
+msgid "Created for transfering {product} to {receiver}"
+msgstr "Créé pour transférer {product} à {receiver}"
+
+#: v1/transactions/serializers/external.py:373
+msgid "unknown source"
+msgstr "source inconnue"
+
+#: v1/transactions/serializers/external.py:381
+#, python-brace-format
+msgid "Batch received from {supplier_name}"
+msgstr "Lot reçu de {supplier_name}"
+
+#: v1/transactions/serializers/external.py:531
+msgid "Create transaction not allowed"
+msgstr "Créer une transaction non autorisée"
+
+#: v1/transactions/serializers/external.py:537
+msgid "Transaction cannot be rejected"
+msgstr "La transaction ne peut pas être rejetée"
+
+#: v1/transactions/serializers/external.py:545
+msgid "Only destination node can reject transaction."
+msgstr "Seul le nœud de destination peut rejeter la transaction."
+
+#: v1/transactions/serializers/external.py:595
+#, fuzzy, python-brace-format
+#| msgid "Sending back to %s"
+msgid "Sending back to {source}"
+msgstr "Renvoi à %s"
+
+#: v1/transactions/serializers/external.py:615
+msgid "Transaction rejected and reversed"
+msgstr "Transaction rejetée et annulée"
+
+#: v1/transactions/serializers/internal.py:174
+msgid "result_batches is required."
+msgstr "lots de résultats est nécessaire."
+
+#: v1/transactions/serializers/internal.py:206
+msgid "Merging transaction can have only one destination batch"
+msgstr "La fusion des transactions ne peut avoir qu'un seul lot de destination"
+
+#: v1/transactions/serializers/internal.py:275
+msgid "Not enough quantity in Batch"
+msgstr "Quantité insuffisante dans le lot"
+
+#: v1/transactions/serializers/purchase_order.py:79
+msgid "Purchase order cannot be modified. It might be Completed/Rejected."
+msgstr ""
+"Le bon de commande ne peut pas être modifié. Il peut être Terminé/Rejeté."
+
+#: v1/transactions/serializers/purchase_order.py:93
+#, python-brace-format
+msgid "{sender} not connected to {receiver} in the {sc_name} supplychain."
+msgstr ""
+"{sender} n'est pas connecté à {receiver} dans la chaîne d'approvisionnement "
+"de {sc_name}."
+
+#: v1/transactions/serializers/purchase_order.py:109
+msgid "Order cannot be changed for already Completed/Rejected order"
+msgstr ""
+"La commande ne peut pas être modifiée pour une commande déjà terminée/"
+"refusée."
+
+#: v1/transactions/serializers/purchase_order.py:114
+msgid "Order cannot be changed , stock sharing already started."
+msgstr ""
+"La commande ne peut pas être modifié le partage du stock a déjà commencé."
+
+#: v1/transactions/serializers/purchase_order.py:121
+msgid "Only the receiver can reject the order."
+msgstr "Seul le destinataire peut rejeter l'ordre."
+
+#: v1/transactions/serializers/purchase_order.py:128
+msgid "Only the sender can remove the order."
+msgstr "Seul l'expéditeur peut retirer l'ordre."
+
+#: v1/transactions/serializers/purchase_order.py:183
+msgid "Delivering quantity mismatch"
+msgstr "Décalage des quantités livrées"
+
+#: v1/transactions/serializers/transaction.py:54
+msgid "Transaction does not exist"
+msgstr "La transaction n'existe pas"
+
+#: v1/transactions/views/transaction.py:94
+msgid "Node does not exist."
+msgstr "Le noeud n'existe pas."
+
+#: v1/transactions/views/transaction.py:112
+msgid "Transaction already exists."
+msgstr "La transaction existe déjà."
+
+#: v1/transactions/views/transaction.py:117
+msgid "Transaction does not exist."
+msgstr "La transaction n'existe pas."
+
+#, fuzzy
+#~| msgid "Password is incorrect."
+#~ msgid "Password reset"
+#~ msgstr "Le mot de passe est incorrect."
+
+#, fuzzy
+#~| msgid "Member User"
+#~ msgid "Member Invite"
+#~ msgstr "Membre utilisateur"
+
+#, fuzzy
+#~| msgid "Document Name"
+#~ msgid "Document Added"
+#~ msgstr "Nom du document"
+
+#, fuzzy
+#~| msgid "Invite"
+#~ msgid "Node Invite"
+#~ msgstr "Invitez"
+
+#, fuzzy
+#~| msgid "Transaction"
+#~ msgid "Transaction Sent"
+#~ msgstr "Transaction"
+
+#, fuzzy
+#~| msgid "Transaction Declined"
+#~ msgid "Transaction Received"
+#~ msgstr "Transaction refusée"
+
+#, fuzzy
+#~| msgid "Transaction  Approved"
+#~ msgid "Transaction Approval"
+#~ msgstr "Transaction approuvée"
+
+#, fuzzy
+#~| msgid "Transaction Created"
+#~ msgid "Transaction Comment"
+#~ msgstr "Transaction créée"
+
+#, fuzzy
+#~| msgid "Purchase Order"
+#~ msgid "Purchase Order Create"
+#~ msgstr "Bon de commande"
+
+#, fuzzy
+#~| msgid "Purchase Order"
+#~ msgid "Purchase Order Update"
+#~ msgstr "Bon de commande"
+
+#, fuzzy
+#~| msgid "Purchase Order"
+#~ msgid "Purchase Order Approval"
+#~ msgstr "Bon de commande"
+
+#, fuzzy
+#~| msgid "Notification"
+#~ msgid "Delivery Notification"
+#~ msgstr "Notification"
+
+#, fuzzy
+#~| msgid "Claim Attached to"
+#~ msgid "Claim Attached"
+#~ msgstr "Revendication jointe à"
+
+#, fuzzy
+#~| msgid "Claim Verifier"
+#~ msgid "Claim Verified"
+#~ msgstr "Vérificateur de Revendication"
+
+#, fuzzy
+#~| msgid "Claim Code"
+#~ msgid "Claim Comment Added"
+#~ msgstr "Code de revendication"
+
+#, fuzzy
+#~| msgid "Bulk Upload Enabled"
+#~ msgid "Bulk Upload Complete"
+#~ msgstr "Chargement en masse activé"
+
+#, python-brace-format
+#~ msgid "{claim_name} Claim of the company is approved"
+#~ msgstr "{claim_name} La réclamation de l'entreprise est approuvée"
+
+#~ msgid "Primary Colour Light"
+#~ msgstr "couleur primaire d'éclairage"
+
+#~ msgid "Action Colour"
+#~ msgstr "couleur d'action"
+
+#~ msgid "Map Background Colour"
+#~ msgstr "Couleur du fond de carte"
+
+#~ msgid "Map Cluster Colour"
+#~ msgstr "couleur du groupe de cartes"
+
+#~ msgid "Map Marker Colour"
+#~ msgstr "Couleur des marqueurs de carte"
+
+#~ msgid "Map Marker Text Colour"
+#~ msgstr "Couleur du texte des marqueurs de carte"
