@@ -22,7 +22,7 @@ RUN apk add bash
 # install dependencies
 RUN pip install --upgrade pip
 RUN mkdir req
-COPY requirements/* req
+COPY requirements/* req/
 RUN pip install -r req/local.txt
 
 # copy project
