@@ -46,9 +46,7 @@ SECRET_KEY = config.get('django', 'SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    ROOT_URL,
-    'localhost',
-    '127.0.0.1',
+    '*'
 ]
 
 
